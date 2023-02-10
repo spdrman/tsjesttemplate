@@ -1,0 +1,8 @@
+node_modules/
+data/postgres
+jest/globalConfig.json
+**/*.snap
+.env
+dist
+build
+generated/*
