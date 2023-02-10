@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./out",
+    "rootDir": "./",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "sourceMap": true,
+    // Ensure that .d.ts files are created by tsc, but not .js files
+    "target": "ES2021",
+    // Ensure that Babel can safely transpile files in the TypeScript project
+    "isolatedModules": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+  },
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.config.*",
+    "**/*.js",
+  ],
+}
